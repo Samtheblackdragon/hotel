@@ -1,0 +1,174 @@
+body{
+    margin:  0;
+}
+#title{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+#testimonials{
+   background-color: #dbf6e9; 
+   padding: 5%;
+}
+
+#packages{
+    background-color: aquamarine;
+    padding: 5%;
+}
+#enquiry{
+    background-color: #dbf6e9; 
+    padding: 5%;
+}
+ 
+#footer{
+    background-color: aquamarine;
+    padding: 5%;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+}
+/* navigation bar  */
+.navbar-brand{
+    font-family: 'Montez', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.nav-item{
+    padding: 10px;
+}
+.title-img{
+    margin-left: 10%;
+   width: 80%;
+}
+.big-heading{
+   margin-top: 30%;
+   margin-left: 10%;
+   font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* testimonial */
+.second-heading{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+
+}
+.carousel-item{
+    padding: 2%;
+}
+/* packages */
+.second-heading{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+
+}
+.card{
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+.card-package{
+    padding: 5%;
+}
+.package-p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+/* Enquiry */
+.details{
+    font-family: 'Mandali', sans-serif;
+    margin-top: 4%;
+    margin-left: 20%;
+}
+.row{
+    margin-right: 0;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.icons{
+   margin-top: 2%;
+   float: left;
+}
+.form-group{
+    line-height: 1.5;
+    border: 10px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 5px 20px 0 #70af85;
+    width: 451.8px;
+    padding: 20px 100px 50px 20px ;
+    margin-left: 130px;
+}
+input{
+    width: 120%;
+    padding: 10px;
+}
+.ibtn{
+   width: 50%;
+   margin-left: 35%;
+}
+
+/* Footer */
+
+.ficon{
+    padding: 2%;
+}
+
+/* change in viewport */
+@media(max-width: 1337px){
+   .big-heading{
+       text-align: center;
+       margin-top: 10%;
+       margin-left: 5%;
+   } 
+   .title-img{
+    margin-left: 20%;
+   width: 80%;
+}
+   #packages{
+       text-align: center;
+   }
+   .card {
+       margin-left: 5%;
+   }
+   .form-group{
+       width: 400px;
+       margin-top: 10px;
+       margin-left: 5.5%;
+   }
+   textarea{
+       width: 120%;
+   }
+}
+@media(max-width: 990px) and (min-width: 600px){
+    .big-heading{
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 5%;
+    } 
+    .title-img{
+     margin-left: 20%;
+     width: 80%;
+ }
+    #packages{
+        text-align: center;
+    }
+    .card {
+        margin-left: 5%;
+    }
+    .form-group{
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 23.5%;
+    }
+    textarea{
+        width: 120%;
+    } 
+}
+@media(max-width: 500px) and (min-width: 0){
+    .details{
+        margin-left: 25%;
+    }
+    .form-group{
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
